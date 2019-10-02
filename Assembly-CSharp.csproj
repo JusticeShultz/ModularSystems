@@ -64,6 +64,7 @@
     <Compile Include="Assets\HierarchyFolders\ReadOnlyField.cs" />
     <Compile Include="Assets\LevelingSystem.cs" />
     <Compile Include="Assets\LootDropSystem.cs" />
+    <Compile Include="Assets\ParticleAlwaysUp.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/s189081/Documents/Systems/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
