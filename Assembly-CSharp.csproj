@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{9EFD6335-A249-D04B-9F72-D500EF5A03A7}</ProjectGuid>
+    <ProjectGuid>{F227C491-1D18-7DEF-450C-13DE21E955A6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,20 +62,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\HierarchyFolders\ReadOnlyField.cs" />
-    <Compile Include="Assets\LevelingSystem.cs" />
-    <Compile Include="Assets\LootDropSystem.cs" />
-    <Compile Include="Assets\ParticleAlwaysUp.cs" />
+    <Compile Include="Assets\LevelingSystem\LevelingSystem.cs" />
+    <Compile Include="Assets\LootDropSystem\LootDropSystem.cs" />
+    <Compile Include="Assets\LootDropSystem\ParticleAlwaysUp.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/s189081/Documents/Systems/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/s189081/Desktop/Systems_Features/ModularSystems/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/s189081/Documents/Systems/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/s189081/Desktop/Systems_Features/ModularSystems/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/s189081/Documents/Systems/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/s189081/Desktop/Systems_Features/ModularSystems/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/s189081/Documents/Systems/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/s189081/Desktop/Systems_Features/ModularSystems/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity 2018.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

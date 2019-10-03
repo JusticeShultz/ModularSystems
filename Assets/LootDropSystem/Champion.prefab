@@ -41,6 +41,8 @@ GameObject:
   - component: {fileID: 65065270738726382}
   - component: {fileID: 54321677888512212}
   - component: {fileID: 114620405245021262}
+  - component: {fileID: 114911077858689476}
+  - component: {fileID: 114937317623781114}
   m_Layer: 0
   m_Name: Champion
   m_TagString: Untagged
@@ -156,6 +158,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particle: {fileID: 1442509114762886}
+--- !u!114 &114911077858689476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1962270611772002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 847a4854d3e6f1c4dacb78986d667dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Notes: 
+  DisplayInputs: 0
+  DisplayNotes: 0
+  DisplayItemDrops: 0
+  Common_MinDropValue: 0
+  Common_MaxDropValue: 0
+  CommonRate: 0
+  Uncommon_MinDropValue: 0
+  Uncommon_MaxDropValue: 0
+  UncommonRate: 0
+  Rare_MinDropValue: 0
+  Rare_MaxDropValue: 0
+  RareRate: 0
+  UltraRare_MinDropValue: 0
+  UltraRare_MaxDropValue: 0
+  UltraRareRate: 0
+  Legendary_MinDropValue: 0
+  Legendary_MaxDropValue: 0
+  LegendaryRate: 0
+  Champion_MinDropValue: 0
+  Champion_MaxDropValue: 0
+  ChampionRate: 0
+  Mythic_MinDropValue: 0
+  Mythic_MaxDropValue: 0
+  MythicRate: 0
+  Commons: []
+  Uncommons: []
+  Rares: []
+  UltraRares: []
+  Legendaries: []
+  Champions: []
+  Mythics: []
+  SpawnOffset: {x: 0, y: 0, z: 0}
+  SpawnRotationOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114937317623781114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1962270611772002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368e8704acc73014bbc3ecf2e6a95085, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particle: {fileID: 0}
 --- !u!198 &198507465562359354
 ParticleSystem:
   m_ObjectHideFlags: 1

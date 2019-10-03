@@ -187,7 +187,19 @@ public class LootDropSystemEditor : Editor
             if (GUILayout.Button("Do Drop (Playmode Only)"))
             {
                 if (EditorApplication.isPlaying) system.Drop();
-                    else Debug.LogWarning("Tried to drop an item but you were not in playmode.");
+                else Debug.LogWarning("Tried to drop an item but you were not in playmode.");
+            }
+
+            if (GUILayout.Button("Do Drop x5(Playmode Only)"))
+            {
+                if (EditorApplication.isPlaying) for(int i = 0; i < 5; i++) system.Drop();
+                else Debug.LogWarning("Tried to drop an item but you were not in playmode.");
+            }
+
+            if (GUILayout.Button("Do Drop x10(Playmode Only)"))
+            {
+                if (EditorApplication.isPlaying) for (int i = 0; i < 10; i++) system.Drop();
+                else Debug.LogWarning("Tried to drop an item but you were not in playmode.");
             }
 
             if (EditorGUI.EndChangeCheck())
