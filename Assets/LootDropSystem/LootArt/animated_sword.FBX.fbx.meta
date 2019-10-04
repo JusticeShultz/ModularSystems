@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 289c56e6dd6fc9d48a8c5cae9957af23
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BN_espinhos_00
+    100004: BN_espinhos_01
+    100006: BN_espinhos_02
+    100008: BN_espinhos_03
+    100010: BN_espinhos_04
+    100012: BN_espinhos_05
+    100014: BN_espinhos_06
+    100016: BN_espinhos_07
+    100018: BN_espinhos_08
+    100020: BN_espinhos_09
+    100022: BN_espinhos_10
+    100024: BN_espinhos_11
+    100026: BN_eye00
+    100028: BN_eye01
+    100030: BN_eye_lids_00
+    100032: BN_eye_lids_01
+    100034: BN_Eyes_lids00
+    100036: BN_Eyes_lids01
+    100038: BN_main
+    100040: Bone002
+    100042: Bone004
+    100044: Bone006
+    100046: Bone008
+    100048: Bone011
+    100050: Bone012
+    100052: Bone014
+    100054: Bone017
+    100056: Bone020
+    100058: Bone023
+    100060: Bone026
+    100062: Bone029
+    100064: Bone032
+    100066: IK Chain001
+    100068: IK Chain002
+    100070: IK Chain003
+    100072: IK Chain004
+    100074: IK Chain005
+    100076: IK Chain006
+    100078: Particle View 001
+    100080: Point001
+    100082: Point002
+    100084: Point003
+    100086: Point004
+    100088: Point005
+    100090: Point006
+    100092: Point007
+    100094: Point008
+    100096: Point009
+    100098: Point010
+    100100: Point011
+    100102: Point012
+    100104: sword_low
+    400000: //RootNode
+    400002: BN_espinhos_00
+    400004: BN_espinhos_01
+    400006: BN_espinhos_02
+    400008: BN_espinhos_03
+    400010: BN_espinhos_04
+    400012: BN_espinhos_05
+    400014: BN_espinhos_06
+    400016: BN_espinhos_07
+    400018: BN_espinhos_08
+    400020: BN_espinhos_09
+    400022: BN_espinhos_10
+    400024: BN_espinhos_11
+    400026: BN_eye00
+    400028: BN_eye01
+    400030: BN_eye_lids_00
+    400032: BN_eye_lids_01
+    400034: BN_Eyes_lids00
+    400036: BN_Eyes_lids01
+    400038: BN_main
+    400040: Bone002
+    400042: Bone004
+    400044: Bone006
+    400046: Bone008
+    400048: Bone011
+    400050: Bone012
+    400052: Bone014
+    400054: Bone017
+    400056: Bone020
+    400058: Bone023
+    400060: Bone026
+    400062: Bone029
+    400064: Bone032
+    400066: IK Chain001
+    400068: IK Chain002
+    400070: IK Chain003
+    400072: IK Chain004
+    400074: IK Chain005
+    400076: IK Chain006
+    400078: Particle View 001
+    400080: Point001
+    400082: Point002
+    400084: Point003
+    400086: Point004
+    400088: Point005
+    400090: Point006
+    400092: Point007
+    400094: Point008
+    400096: Point009
+    400098: Point010
+    400100: Point011
+    400102: Point012
+    400104: sword_low
+    2100000: 'Material #192'
+    4300000: sword_low
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: sword_low
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
