@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c70c0241b6e0c49a9e01aa5d00cbbd, type: 3}
+  m_Name: ChatData
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::ChatData
+  Names:
+  - Justice
+  - Tommy Wiseau
+  - Robot
+  - Mysterious Stranger
+  - Mr. Torgue
+  Chats:
+  - OwO hi there fellow person
+  - Oh hi Mark
+  - Beep boop bop
+  - This is an interesting conversation
+  - LOOTSPLOSION

@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DialogueTool\ChatData.cs" />
     <Compile Include="Assets\DialogueTool\DialogueManager.cs" />
     <Compile Include="Assets\HierarchyFolders\ReadOnlyField.cs" />
     <Compile Include="Assets\LevelingSystem\LevelingSystem.cs" />
