@@ -48,7 +48,7 @@ namespace RPGDialogueSystem
                             if (!gObject.GetComponent<DialogueManager>())
                             {
                                 Debug.Log("[Dialogue Configuration] Dialogue Manager component added to " + gObject.name);
-                                gObject.AddComponent<DialogueManager>();
+                                Undo.AddComponent<DialogueManager>(gObject);
                             }
                         }
                     }
@@ -59,20 +59,29 @@ namespace RPGDialogueSystem
                 if (!scriptableChatData || scriptableChatData.GetType().Name != "ChatData")
                 {
                     GUILayout.Label("Set the below field to a valid ChatData object.", EditorStyles.largeLabel);
-                    scriptableChatData = EditorGUILayout.ObjectField(scriptableChatData, typeof(Object), true);
+
+                    scriptableChatData = EditorGUILayout.ObjectField(scriptableChatData, typeof(ChatData), true);
+
                     GUILayout.Space(30);
                     GUILayout.Label("To make a ChatData object, go to:", EditorStyles.largeLabel);
                     GUILayout.Label("Assets > Dialogue > Create Script", EditorStyles.largeLabel);
                 }
                 else
                 {
-                    scriptableChatData = EditorGUILayout.ObjectField("Dialogue Configuration Manager", scriptableChatData, typeof(Object), true);
+                    EditorGUI.BeginChangeCheck();
+
+                    scriptableChatData = EditorGUILayout.ObjectField(scriptableChatData, typeof(ChatData), true);
+
+                    EditorGUI.BeginChangeCheck();
+
                     GUILayout.Space(5);
 
                     if (GUILayout.Button("Add new dialogue field"))
                     {
                         ((ChatData)scriptableChatData).Chats.Add("");
                         ((ChatData)scriptableChatData).Names.Add("");
+
+                        EditorUtility.SetDirty(scriptableChatData);
                     }
 
                     if (!scriptableChatData || scriptableChatData.GetType().Name != "ChatData") return;
@@ -80,7 +89,7 @@ namespace RPGDialogueSystem
                         {
                             if (!scriptableChatData || scriptableChatData.GetType().Name != "ChatData") return;
 
-                            GUILayout.Label("Display Name:", EditorStyles.largeLabel);
+                            GUILayout.Label("Chat Box #" + (i + 1), EditorStyles.largeLabel);
 
                             GUILayout.BeginHorizontal();
 
@@ -94,6 +103,7 @@ namespace RPGDialogueSystem
                             {
                                 ((ChatData)scriptableChatData).Chats.Remove(((ChatData)scriptableChatData).Chats[i]);
                                 ((ChatData)scriptableChatData).Names.Remove(((ChatData)scriptableChatData).Names[i]);
+                                EditorUtility.SetDirty(scriptableChatData);
                                 return;
                             }
 
@@ -113,6 +123,7 @@ namespace RPGDialogueSystem
                             {
                                 DialogueManager manager = gObject.GetComponent<DialogueManager>();
 
+                                Undo.RecordObject(manager, "Configured settings");
                                 manager.Names = ((ChatData)scriptableChatData).Names;
                                 manager.Chats = ((ChatData)scriptableChatData).Chats;
                             }
@@ -121,6 +132,12 @@ namespace RPGDialogueSystem
                                 Debug.Log("Something went wrong, please try again!");
                             }
                         }
+                    }
+
+                    if (EditorGUI.EndChangeCheck())
+                    {
+                        Undo.RecordObject(scriptableChatData, "Modified values on the scr obj");
+                        
                     }
                 }
             }

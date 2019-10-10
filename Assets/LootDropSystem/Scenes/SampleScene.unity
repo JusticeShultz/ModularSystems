@@ -122,7 +122,6 @@ GameObject:
   m_Component:
   - component: {fileID: 170076735}
   - component: {fileID: 170076734}
-  - component: {fileID: 170076736}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -180,34 +179,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &170076736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 170076733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21d15740b05916d4195090b79f4b4ade, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Names: []
-  Chats: []
-  OnTriggerEntered:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: DialogueManager+OnTriggerEntered_Event, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnChatStarted:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: DialogueManager+OnTriggerEntered_Event, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnChatEnded:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: DialogueManager+OnTriggerEntered_Event, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +188,6 @@ GameObject:
   m_Component:
   - component: {fileID: 534669905}
   - component: {fileID: 534669906}
-  - component: {fileID: 534669903}
   m_Layer: 0
   m_Name: DropperObject
   m_TagString: Untagged
@@ -225,34 +195,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &534669903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 534669902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21d15740b05916d4195090b79f4b4ade, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Names: []
-  Chats: []
-  OnTriggerEntered:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: DialogueManager+OnTriggerEntered_Event, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnChatStarted:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: DialogueManager+OnTriggerEntered_Event, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnChatEnded:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: DialogueManager+OnTriggerEntered_Event, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!4 &534669905
 Transform:
   m_ObjectHideFlags: 0
@@ -423,31 +365,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21d15740b05916d4195090b79f4b4ade, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Names: []
-  Chats: []
   OnTriggerEntered:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1022008108}
-        m_MethodName: StartChat
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: DialogueManager+OnTriggerEntered_Event, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+      m_Calls: []
+    m_TypeName: RPGDialogueSystem.DialogueManager+OnTriggerEntered_Event, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnChatStarted:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: DialogueManager+OnTriggerEntered_Event, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+    m_TypeName: RPGDialogueSystem.DialogueManager+OnTriggerEntered_Event, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnChatEnded:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: DialogueManager+OnTriggerEntered_Event, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+    m_TypeName: RPGDialogueSystem.DialogueManager+OnTriggerEntered_Event, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Names:
+  - Justice
+  - Tommy Wiseau
+  - Robot
+  - Mysterious Stranger
+  - Mr. Torgue
+  Chats:
+  - OwO hi there fellow person
+  - Oh hi Mark
+  - Beep boop bop
+  - This is an interesting conversation
+  - LOOTSPLOSION
